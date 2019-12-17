@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>RESTful API</title>
 
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 	<div class="container">
@@ -27,6 +27,8 @@
 					<div class="panel-heading">Student info</div>
 					<div class="panel-body">
 						<form id="update-student-form">
+							<input type="hidden" name="id">
+
 							<div class="form-group">
 								<input type="text" name="firstname" placeholder="Firstname" class="form-control">
 							</div>
